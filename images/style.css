@@ -33,14 +33,6 @@ body{
     border-radius: 30px;
 }
 
-.card h1 {
-    color: var(--white);
-}
-
-.card p {
-    color: var(--light-grey);
-}
-
 .estrela{
     background-color: var(--dark-blue);
     width: 48px;
@@ -48,5 +40,19 @@ body{
 
     display: flex;
     justify-content: center;
-    align-items: center36;
+    align-items: center;
+
+    border-radius: 50%;
+
+    margin-bottom: 30px;
+}
+
+.card h1 {
+    color: var(--white);
+}
+
+.card p {
+    color: var(--light-grey);
+    font-size: 15px;
+    line-height: 24px;
 }
