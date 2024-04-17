@@ -49,10 +49,28 @@ body{
 
 .card h1 {
     color: var(--white);
+    font-size: 20px;
+    margin-bottom: 24px;
 }
 
 .card p {
     color: var(--light-grey);
     font-size: 15px;
     line-height: 24px;
+    margin-bottom: 24px;
+}
+.botoes{
+    display:flex;
+    justify-content: space-between;
+}
+
+.botoes buttom{
+  width: 51px;
+  height: 51px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  border-radius: 50px;
+  color: var(--medium-grey);
+  background-color: var(--dark-blue);
 }
