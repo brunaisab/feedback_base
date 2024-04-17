@@ -12,7 +12,7 @@ font-family: "Overpass", sans-serif;
    --orange: #FC7614;
    --write: #FFF;
    --very-dark-blue: #131518;
-   --black-gradiant: radial-gradient (98.96%  98.96%  at  50% 0%, #232434 0%, #181E27 100%);
+   --black-gradiant: radial-gradient (98.96%  98.96% at 50% 0%, #232434 0%, #181E27 100%);
 }
 
 body{
@@ -59,9 +59,11 @@ body{
     line-height: 24px;
     margin-bottom: 24px;
 }
+
 .botoes{
     display:flex;
     justify-content: space-between;
+    margin-bottom: 32px;
 }
 
 .botoes buttom{
@@ -70,7 +72,41 @@ body{
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
-  border-radius: 50px;
+  border-radius: 50%;
+  border:none;
   color: var(--medium-grey);
   background-color: var(--dark-blue);
+
+  transition: all ease-in-out 0.3s;
+}
+
+.botoes button:hover {
+    color: var(--white);
+    background-color: var(--orange);
+    cursor: pointer;
+}
+
+.botoes button:focus{
+    color: var(--white);
+    background: var("--light-grey");
+}
+
+.card > button {
+    width: 100%;
+    padding: 13px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 22px;
+
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--white);
+}
+
+.card > button:hover {
+    color: var(--orange);
+    background-color: var(--white);
+    cursor: pointer;
 }
